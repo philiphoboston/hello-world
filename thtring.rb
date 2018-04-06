@@ -5,7 +5,5 @@ user_input.downcase!
 if user_input.include? "s"
   print user_input.gsub!(/s/, "th")
   puts "Your new string, #{user_input}!!"
-  
-  
-else print "NO"
+ else print "NO"
 end
